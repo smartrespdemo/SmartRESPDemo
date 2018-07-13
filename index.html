@@ -1,0 +1,589 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+	<title>SmartSAVER - Start My RESP</title>
+
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, minimal-ui" />
+
+	<meta name="description" content="Start my RESP by SmartSAVER let's your family get a head start on your child's education.">
+	<meta name="keywords" content="conversational interfaces, smart, saver, smartSAVER, RESP, grant, Canada, government">
+
+	<link rel="stylesheet" href="build/conversational-form-docs.min.css?v=1.0.0">
+
+	<!-- file to overwrite Conversational Form styles -->
+	<link rel="stylesheet" href="build/styles/cf/cf-theming.css?v=1.0.0">
+
+	<link rel="icon" href="images/favicon.ico">
+</head>
+
+<body>
+	<!-- Load Conversational Form (v0.9.6) -->
+	<script type="text/javascript" src="https://cf-4053.kxcdn.com/conversational-form/0.9.6/conversational-form.min.js?v=1.0.0"
+	    crossorigin></script>
+	<!-- Load docs -->
+	<script src="build/conversational-form-docs.min.js?v=1.0.0"></script>
+
+	<main id="conversational-form-docs" class="content">
+		<menu id="small-screen-menu">
+			<h2>SmartSAVER - Start My RESP</h2>
+
+			<div class="switch-btn">
+				<label class="switch">
+					<input type="checkbox" onclick="window.conversationalFormDocs.toggleConversation(event)">
+					<div class="slider round"></div>
+				</label>
+			</div>
+
+			<div class="hamburger-btn" onclick="window.conversationalFormDocs.toggleMenuState(event)">
+				<svg viewBox="0 0 29 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+					<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="square">
+						<g transform="translate(-325.000000, -87.000000)" stroke="#FFFFFF" stroke-width="2">
+							<g transform="translate(325.000000, 87.000000)">
+								<path d="M27.4802431,7 L1.23827993,7"></path>
+								<path d="M27.4802431,1 L1.23827993,1"></path>
+								<path d="M27.4802431,13 L1.23827993,13"></path>
+							</g>
+						</g>
+					</g>
+				</svg>
+			</div>
+		</menu>
+
+		<div class="switch-btn" id="cf-toggle-btn" data-label="Enable Conversational Form" data-label-toggled="Disable Conversational Form">
+			<label class="switch">
+				<input type="checkbox" onclick="window.conversationalFormDocs.toggleConversation(event)">
+				<div class="slider round"></div>
+			</label>
+		</div>
+
+		<section id="info" role="info">
+			<div class="close-btn" onclick="window.conversationalFormDocs.toggleMenuState()">
+				<svg viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+					<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="square">
+						<g transform="translate(-328.000000, -83.000000)" stroke="#FFFFFF" stroke-width="2">
+							<g id="close" transform="translate(329.000000, 84.000000)">
+								<path d="M19.6371966,19.2779351 L1.08132646,0.722064927"></path>
+								<path d="M19.4923318,0.722064927 L0.936461672,19.2779351"></path>
+							</g>
+						</g>
+					</g>
+				</svg>
+			</div>
+
+			<h3>
+				Chatbot interaction development demo made by
+				<a href="https://ca.linkedin.com/in/biren-agnihotri-78b0a665" target="_blank">Biren Agnihotri</a>.
+			</h3>
+
+			<article>
+				<h1 id="writer">
+					Start my RESP
+				</h1>
+				<h2>
+					Start my RESP is a unique iniative by
+					<a href="https://www.smartsaver.org" target="_blank">SmartSAVER</a> that aims to simplify the process of connecting families to advice and support for setting up their RESP.
+					</br>
+					</br>For more information about RESP's or choosing the right one, take a look at our
+					<a href="https://www.smartsaver.org/resp-information.shtml"
+					    target="_self">information portal</a>.
+					<br>
+					<br>
+					<span style="color: red;">Do note, due to this being a development demo, some options (such as additional languages) have been disabled.</span>
+				</h2>
+
+				<footer>
+
+				</footer>
+			</article>
+		</section>
+
+		<section id="form" role="form">
+			<form id="cf-form" method="post" action="https://api.formbucket.com/f/buk_YR7xGobkQQBP0bmXAWXtxn1B">
+				<fieldset>
+					<label for="language">Would you like to add instructions in a second language?</label>
+					<div class="radio">
+						<label>
+							<input required cf-questions="Hey there! My name is Smarty 😊 and today I'll help you setup your RESP. <br><br>Would you like to add instructions in a second language?"
+							    type="radio" id="language-1" value="No, thanks" class="form-control" name="language" id="altLang"> No, thanks
+						</label>
+					</div>
+					<div class="radio">
+						<input disabled type="radio" name="language" id="language-2" value="Français"> Français
+					</div>
+					<div class="radio">
+						<input disabled type="radio" name="language" id="language-3" value="简体中文"> 简体中文
+					</div>
+					<div class="radio">
+						<input disabled type="radio" name="language" id="language-4" value="ਪੰਜਾਬੀ"> ਪੰਜਾਬੀ
+					</div>
+					<div class="radio">
+						<input disabled type="radio" name="language" id="language-5" value="Español"> Español
+					</div>
+				</fieldset>
+
+				<fieldset>
+					<label for="occupation">Would you like to submit your application in English or in French?</label>
+					<div class="radio">
+						<label>
+							<input required cf-questions="Perfect, thanks! Since the application must be submitted in either English or French, which do you prefer?"
+							    type="radio" name="appLang" id="applicationLang-1" value="English"> English
+						</label>
+					</div>
+					<div class="radio">
+						<label>
+							<input disabled type="radio" name="appLang" id="appLang-2" value="French"> French
+						</label>
+					</div>
+				</fieldset>
+
+				<fieldset>
+					<label for="cf-decide">Do you accept our terms?</label>
+					<div class="radio">
+						<label>
+							<input required type="radio" id="decide-yes" value="yes" cf-questions="Do you accept our terms?" name="cf-decide" /> I accept. Let's get started!
+						</label>
+					</div>
+					<div class="radio">
+						<label>
+							<input type="radio" id="decide-no" value="no" name="cf-decide" /> No, thanks. I'm not ready to start my RESP.
+						</label>
+					</div>
+				</fieldset>
+
+				<!--If response is No -->
+				<input id="path-no-1" type="text" cf-questions="Oops! We can't continue without accepting the terms. <br><br> Please try again when you're ready."
+				    cf-conditional-cf-decide="no" />
+
+				<!--If response is Yes -->
+				<fieldset>
+					<label for "grant-decide">Do you want to apply for the Canada Learning Bond and the Additional Canada Education Savings Grant?</label>
+					<div class="radio">
+						<label>
+							<input cf-conditional-cf-decide="yes" required type="radio" id="grant-decide-yes" value="grant-yes" cf-questions="Do you want to apply for the Canada Learning Bond and the Additional Canada Education Savings Grant?"
+							    name="grant-decide" /> I want to apply for the Canada Learning Bond and the Additional Canada Education Savings Grant.
+						</label>
+					</div>
+					<div class="radio">
+						<label>
+							<input type="radio" id="grant-decide-no" value="grant-no" name="grant-decide" /> I don't, already have an RESP and don't want another one, and/or I already have a Canada Learning Bond for my child.
+						</label>
+					</div>
+				</fieldset>
+
+				<!--If response is No -->
+				<input id="path-no-2" type="text" cf-questions="Oops! We can't continue if you do not wish to apply for an RESP or Canada Learning Bond for your child. <br><br> Please try again later when you're ready."
+				    cf-conditional-grant-decide="grant-no" />
+
+				<!--If response is Yes -->
+				<fieldset>
+					<label for="child-firstlast">Child First &nbsp; Last Name</label>
+					<input required type="text" cf-conditional-grant-decide="grant-yes" id="child-firstlast" cf-questions="That's great! Let's get started. How about you begin by telling me the first and last name of the child."
+					    name="child-firstlast" />
+				</fieldset>
+
+				<fieldset>
+					<label for="child-birth">What is the childs date of birth?</label>
+					<input required type="text" id="child-birth" cf-questions="Perfect, next, tell me when is the child born?" name="child-birth"
+					/>
+				</fieldset>
+
+				<fieldset>
+					<label for="child-sex">What is the childs date of birth?</label>
+					<div class="radio">
+						<input required type="radio" id="child-sex" cf-questions="What is the sex of the child?" name="child-sex" /> Male
+					</div>
+					<div ckass="radio">
+						<input type="radio" id="child-sex" name="child-sex" /> Female
+					</div>
+				</fieldset>
+
+				<fieldset>
+					<label for="child-postal-code">What is your postal code?</label>
+					<input required type="text" id="child-postal-code" cf-questions="Thanks. Now that I know that {child-firstlast} is born on {child-birth} and is a {previous-answer}, how about you tell me a bit about yourself. <br><br>What is your postal code?"
+					    name="child-postal-code" />
+				</fieldset>
+
+				<fieldset>
+					<label for="child-email">What is your email?</label>
+					<input required type="email" cf-error="Please recheck your email." pattern=".+\@.+\..+" cf-questions="And, what's the best email for us to reach you?"
+					    class="form-control" id="child-email" name="child-email">
+				</fieldset>
+
+				<fieldset>
+					<label for="child-consent">Do you consent to SmartSAVER using your email to send you information regarding financial programs and other matters
+						that SmartSAVER believes will be of interest to you?</label>
+					<div class="radio">
+						<input required type="radio" id="child-consent" cf-questions="Do you consent to SmartSAVER using your email to send you information regarding financial programs and other matters that SmartSAVER believes will be of interest to you?"
+						    name="child-consent" /> Yes
+					</div>
+					<div ckass="radio">
+						<input type="radio" id="child-consent" name="child-consent" /> No
+					</div>
+				</fieldset>
+
+				<fieldset>
+					<label for="choose-a-bank">Choose a financial institution for your RESP.</label>
+					<div class="radio">
+						<input required type="radio" value="td" cf-label="TD" cf-image="https://i.imgur.com/TtMuEu2.jpg" name="choose-a-bank"
+						    cf-questions="Now that I have some general information about you, based on your provided postal code I've found a few local financial institutions. <br><br>Please pick your desired RESP institution."
+						/> TD
+					</div>
+					<div class="radio">
+						<input type="radio" value="bmo" id="bmo" cf-label="BMO" cf-image="https://i.imgur.com/MOoTeTz.png" name="choose-a-bank" /> BMO
+					</div>
+					<div class="radio">
+						<input type="radio" value="cibc" id="cibc" cf-label="CIBC" cf-image="https://i.imgur.com/9vNU1a8.jpg" name="choose-a-bank" /> CIBC
+					</div>
+					<div class="radio">
+						<input type="radio" value="meridian" id="meridian" cf-label="Meridian" cf-image="https://i.imgur.com/19T7fhY.jpg" name="choose-a-bank"
+						/> Meridian
+					</div>
+					<div class="radio">
+						<input type="radio" value="rbc" id="rbc" cf-label="RBC" cf-image="https://i.imgur.com/37JD8li.png" name="choose-a-bank" /> RBC
+					</div>
+					<div class="radio">
+						<input type="radio" value="scotiabank" id="scotiabank" cf-label="Scotiabank" cf-image="https://i.imgur.com/41ktivb.jpg" name="choose-a-bank"
+						/> Scotiabank
+					</div>
+					<div class="radio">
+						<input type="radio" value="vancity" id="vancity" cf-label="Vancity" cf-image="https://i.imgur.com/h7KTmIv.jpg" name="choose-a-bank"
+						/> Vancity
+					</div>
+				</fieldset>
+
+				<!--if selected bank is TD -->
+				<fieldset >
+					<label for="bank-td">If selection is TD, how did you hear about us?</label>
+					<div class="radio">
+						<input required type="radio" id="bank-td" name="bank-td" cf-questions="Since you've selected TD Bank as your financial institution, we will now redirect you to their portal. <br><br>Before we do so though, we'd like to ask about how you heard about SmartSAVER. Was it through:" cf-conditional-choose-a-bank="td"/> Acorn Canada
+					</div>
+					<div class="radio">
+						<input type="radio" id="bank-td" name="bank-td" cf-conditional-choose-a-bank="td" /> FRP Canada
+					</div>
+					<div class="radio">
+						<input type="radio" id="bank-td-2" name="bank-td" cf-conditional-choose-a-bank="td" /> Credit Canada
+					</div>
+					<div class="radio">
+						<input type="radio" id="bank-td-3" name="bank-td" cf-conditional-choose-a-bank="td" /> Indigenous Futures
+					</div>
+					<div class="radio">
+						<input type="radio" id="bank-td-4" name="bank-td" cf-conditional-choose-a-bank="td" /> Intuit Turbotax
+					</div>
+					<div class="radio">
+						<input type="radio" id="bank-td-5" name="bank-td" cf-conditional-choose-a-bank="td" /> Kanata Financial
+					</div>
+					<div class="radio">
+						<input type="radio" id="bank-td-6" name="bank-td" cf-conditional-choose-a-bank="td" /> Money Matters
+					</div>
+					<div class="radio">
+						<input type="radio" id="bank-td-7" name="bank-td" cf-conditional-choose-a-bank="td" /> My Tax Clinic
+					</div>
+					<div class="radio">
+						<input type="radio" id="bank-td-8" name="bank-td" cf-conditional-choose-a-bank="td" /> Prosper Canada
+					</div>
+					<div class="radio">
+						<input type="radio" id="bank-td-9" name="bank-td" cf-conditional-choose-a-bank="td" /> Society of Saint Vince de Paul
+					</div>
+					<div class="radio">
+						<input type="radio" id="bank-td-10" name="bank-td" cf-conditional-choose-a-bank="td" /> Welcome to Kindergarten - The Learning Partnership
+					</div>
+					<div class="radio">
+						<input type="radio" id="bank-td-11" name="bank-td" cf-conditional-choose-a-bank="td" /> A friend
+					</div>
+					<div class="radio">
+						<input type="radio" id="bank-td-12" name="bank-td" cf-conditional-choose-a-bank="td" /> The news
+					</div>
+					<div class="radio">
+						<input type="radio" id="bank-td-13" name="bank-td" cf-conditional-choose-a-bank="td" /> None of the above
+					</div>
+				</fieldset>
+	
+				<fieldset>
+					<label for="referrer">Choose appointment scheduling option.</label>
+					<div class="radio">
+						<input required type="radio" value="online" name="referrer" cf-questions="Thanks for letting us know. <br><br>Now, please select your preferred method of contact and we'll redirect you the TD portal." cf-conditional-choose-a-bank="td"
+						/> Online Booking
+					</div>
+					<div class="radio">
+						<input type="radio" name="referrer" value="call" cf-conditional-choose-a-bank="td" /> Call
+					</div>
+				</fieldset>
+
+				<fieldset>
+					<input type="text" cf-questions="Fantastic! Redirecting you to the TD online portal now... <br><br>[Developer Notes] At this point this path (1/3) has been completed."
+					cf-conditional-referrer="online" />
+				</fieldset>
+
+				<fieldset>
+						<input type="text" cf-questions="Fantastic! Please call 1-800-999-9999 and ask to speak to an RESP Agent. Thanks for using SmartRESP's Start my RESP. <br><br>[Developer Notes] At this point this path (1/3) has been completed."
+						cf-conditional-referrer="call" />
+				</fieldset>
+					
+				<!--if selected bank is not TD -->
+				<fieldset>
+					<label for="choose-role">Are you applying as an individual or as an agency?</label>
+					<div class="radio">
+						<input required value="individual" type="radio" name="choose-role" id="choose-role" cf-questions="Great, since you've selected an institution we need to know just a little more information.<br><br>First off, are you applying as an individual or as an agency?"
+						/> Individual
+					</div>
+					<div class="radio">
+						<input type="radio" value="agency" name="choose-role" />
+						Agency
+					</div>
+				</fieldset>
+
+				<!--if applying as indvidual-->
+				<fieldset> 
+					<label for="first-last-individual">What is your First &nbsp; Last name?</label>
+					<input required type="text" cf-conditional-choose-role="individual" name="first-last-individual" cf-questions="Great, now that I know you're applying as an {previous-answer}, I can better cater to your requests. <br><br>Let's continue with your First &amp; Last name please." />
+				</fieldset>
+
+				<fieldset>
+					<label for="street-individual">Your Street Address:</label>
+					<input required type="text" cf-conditional-choose-role="individual" name="street-individual" cf-questions="Thanks {previous-answer}. Now, I'm going to collect some information about your mailing address. What is your street address?" />
+				</fieldset>
+
+				<fieldset>
+					<label for="city-individual">City:</label>
+					<input required type="text" cf-conditional-choose-role="individual" name="city-individual" cf-questions="City?" />
+				</fieldset>
+
+				<fieldset>
+					<label for="province-individual">Province:</label>
+					<select required cf-questions="Province?" cf-conditional-choose-role="individual" name="province-individual" />
+						<option></option>
+						<option>Alberta</option>
+						<option>British Columbia</option>
+						<option>Manitoba</option>
+						<option>New Brunswick</option>
+						<option>Newfoundland</option>
+						<option>Northwest Territories</option>
+						<option>Nova Scotia</option>
+						<option>Nunavut</option>
+						<option>Ontario</option>
+						<option>Prince Edward Island</option>
+						<option>Quebec</option>
+						<option>Saskatchewan</option>
+						<option>Yukon</option>
+				</fieldset>
+
+				<fieldset>
+					<label for="city-individual">Phone Number, ext.:</label>
+					<input required type="text" cf-conditional-choose-role="individual" name="city-individual" cf-questions="Great. So now I know that your mailing address is {street-individual}, {city-individual}, {province-individual}, {child-postal-code}. <br><br>Thanks for that. Now can you tell me a phone number where we can contact you?" />
+				</fieldset>
+
+				<fieldset>
+					<label for="custodial-individual">Are you the Custodial Parent/Legal Guardian?</label>
+					<div class="radio">
+						<input required type="radio" value="yes" cf-conditional-choose-role="individual" name="custodial-individual" cf-questions="Fantastic. We've collected most of the information we needed. We just have a few questions left. <br><br> First off, are you the Custodial Parent/Legal Guardian of the Child?" />
+						Yes
+					</div>
+					<div class="radio">
+						<input required type="radio" value="no" cf-conditional-choose-role="individual" name="custodial-individual" />
+						No
+					</div>
+				</fieldset>
+
+				<fieldset>
+					<label for="custodial-individual-name">If you are not the Custodial Parent/Legal Guardian, please provide their First &amp; Last name:</label>
+					<input required type="text" name="custodial-individual-name" cf-conditional-choose-role="individual" cf-conditional-custodial-individual="no" cf-questions="Please provide the First &amp; Last name of the Custodial Parent/Legal Guardian." />
+				</fieldset>
+
+				<fieldset>
+					<label for="primary-caregiver">Are you the Primary Caregiver?</label>
+					<div class="radio">
+						<input required type="radio" value="yes" name="primary-caregiver" cf-conditional-choose-role="individual" cf-questions="Next question: Are you the Primary Caregiver for the child?" />
+						Yes
+					</div>
+					<div class="radio">
+						<input required value="no" type="radio" name="primary-caregiver" cf-conditional-choose-role="individual" />
+						No
+					</div>
+				</fieldset>
+
+				<fieldset>
+					<label for="primary-caregiver-yes">If you are the primary caregiver, do you want us to call you in the Morning or the Afternoon?</label>
+					<div class="radio">
+						<input required type="radio" name="primary-caregiver-yes" cf-conditional-choose-role="individual" cf-conditional-primary-caregiver="yes" cf-questions="Since you're the primary caregiver, do you want us to call you in the Morning of the Afternoon?" />
+						Morning
+					</div>
+					<div class="radio">
+						<input required type="radio" name="primary-caregiver-yes" cf-conditional-choose-role="individual" cf-conditional-primary-caregiver="yes" />
+						Afternoon
+					</div>
+				</fieldset>
+
+				<fieldset> 
+					<label for="primary-caregiver-no">If you are not the Primary Caregiver, what is the name of the Primary Caregiver?</label>
+					<input required type="text" name="primary-caregiver-no" cf-conditional-choose-role="individual" cf-conditional-primary-caregiver="no" cf-questions="Since you're not the primary caregiver, what is the name of the Primary Caregiver?" />
+				</fieldset>
+
+				<fieldset>
+					<label for="primary-caregiver-no-options">Is the Primary Caregiver also the Custodial Parent/Legal Guardian?</label>
+					<div class="radio">
+						<input required type="radio" name="primary-caregiver-no-options" cf-conditional-choose-role="individual" cf-conditional-primary-caregiver="no" cf-questions="Is {primary-caregiver-no} also the Custodial Parent/Legal Guardian?" />
+						Yes
+					</div>
+					<div class="radio">
+						<input required type="radio" name="primary-caregiver-no-options" cf-conditional-choose-role="individual" cf-conditional-primary-caregiver="no" />
+						No
+					</div>
+				</fieldset>
+
+				<fieldset>
+					<label for="add-another">Do you want to add your spouse or common-law partner to this application as your Joint Subscriber?</label>
+					<div class="radio">
+						<input required type="radio" value="yes" name="add-another" cf-conditional-choose-role="individual" cf-questions="Finally, do you want to add your spouse or common-law partner to this application as your Joint Subscriber?" />
+						Yes
+					</div>
+					<div class="radio">
+						<input required type="radio" name="add-another" cf-conditional-choose-role="individual" value="no" />
+						No
+					</div>	
+				</fieldset>
+
+				<fieldset> 
+					<label for="add-another-yes">If you are adding a joint subscriber or common-law partner as your Joint Subscriber, what is their name?</label>
+					<input required type="text" name="add-another-yes" cf-conditional-choose-role="individual" cf-conditional-add-another="yes" cf-questions="Great, what is your Joint Subscriber's name?" />
+				</fieldset>
+
+				<fieldset>
+					<label for="add-another-yes-options">Is the Joint Subscriber the Custodial Parent/Legal Guardian?</label>
+					<div class="radio">
+						<input required type="radio" name="add-another-yes-options" cf-conditional-choose-role="individual" cf-conditional-add-another="yes" cf-questions="Is {add-another-yes} the Custodial Parent/Legal Guardian?" />
+						Yes
+					</div>
+					<div class="radio">
+						<input required type="radio" name="add-another-yes-options" cf-conditional-choose-role="individual" cf-conditional-add-another="yes" />
+						No
+					</div>
+				</fieldset>
+				<!--if applying as agency-->
+				<fieldset>
+					<label for="bank-agency">Since you're applying as an agency, please re-select a financial institution.</label>
+					<div class="radio">
+						<input type="radio" cf-questions="Perfect, so you're applying as an Agency. <br><br>Because of this, we request you reconfirm your selection of a financial institution" cf-conditional-choose-role="agency" value="bmo" id="bmo" cf-label="BMO" cf-image="https://i.imgur.com/MOoTeTz.png" name="bank-agency" /> BMO
+					</div>
+					<div class="radio">
+						<input type="radio" cf-conditional-choose-role="agency" value="cibc" id="cibc" cf-label="CIBC" cf-image="https://i.imgur.com/9vNU1a8.jpg" name="bank-agency" /> CIBC
+					</div>
+					<div class="radio">
+						<input type="radio" cf-conditional-choose-role="agency" value="meridian" id="meridian" cf-label="Meridian" cf-image="https://i.imgur.com/19T7fhY.jpg" name="bank-agency"
+						/> Meridian
+					</div>
+					<div class="radio">
+						<input type="radio" cf-conditional-choose-role="agency" value="rbc" id="rbc" cf-label="RBC" cf-image="https://i.imgur.com/37JD8li.png" name="bank-agency" /> RBC
+					</div>
+					<div class="radio">
+						<input type="radio" cf-conditional-choose-role="agency" value="scotiabank" id="scotiabank" cf-label="Scotiabank" cf-image="https://i.imgur.com/41ktivb.jpg" name="bank-agency"
+						/> Scotiabank
+					</div>
+					<div class="radio">
+						<input type="radio" cf-conditional-choose-role="agency" value="vancity" id="vancity" cf-label="Vancity" cf-image="https://i.imgur.com/h7KTmIv.jpg" name="bank-agency"
+						/> Vancity
+					</div>
+				</fieldset>
+
+				<fieldset>
+					<label for="agency-name">If applying as an Agency, what is your Agency's name?</label>
+					<input required type="text" name="agency-name" cf-conditional-choose-role="agency" cf-questions="Thanks! Let's start with some basic information about your agency. What is your Agency's name?" />
+				</fieldset>
+
+				<fieldset>
+					<label for="agency-rep-name">What is the applying Agency Representatives name?</label>
+					<input required type="text" name="agency-rep-name" cf-conditional-choose-role="agency" cf-questions="What is your name (or the name of the Agency Represenative)?" />
+				</fieldset>
+
+				<fieldset>
+					<label for="agency-number">What is the Agency phone number?</label>
+					<input required type="text" name="agency-number" cf-conditional-choose-role="agency" cf-questions="What is your Agency's phone number?" />
+				</fieldset>
+
+				<fieldset>
+					<label for="agency-biz-number">What is the Agency business number?</label>
+					<input required type="text" name="agency-biz-number" cf-conditional-choose-role="agency" cf-questions="What is your Agency's business number?" />
+				</fieldset>
+
+				<fieldset>
+					<label for="agency-street-addr">What is your Agency's street address?
+					</label>
+					<input required type="text" name="agency-street-addr" cf-conditional-choose-role="agency" cf-questions="What is your Agency's street address?" />
+				</fieldset>
+
+				<fieldset>
+					<label for="agency-street-addr-city">City?
+					</label>
+					<input required type="text" name="agency-street-addr-city" cf-conditional-choose-role="agency" cf-questions="City?" />
+				</fieldset>
+
+				<fieldset>
+					<label for="agency-street-addr-province">Province?
+					</label>
+					<select required type="text" name="agency-street-addr-province" cf-conditional-choose-role="agency" cf-questions="Province?" />
+						<option></option>
+						<option>Alberta</option>
+						<option>British Columbia</option>
+						<option>Manitoba</option>
+						<option>New Brunswick</option>
+						<option>Newfoundland</option>
+						<option>Northwest Territories</option>
+						<option>Nova Scotia</option>
+						<option>Nunavut</option>
+						<option>Ontario</option>
+						<option>Prince Edward Island</option>
+						<option>Quebec</option>
+						<option>Saskatchewan</option>
+						<option>Yukon</option>
+				</fieldset>
+
+				<fieldset>
+					<label for="agency-child-sin">What is the SIN of the child?</label>
+					<input required type="text" name="agency-child-sin" cf-conditional-choose-role="agency" cf-questions="Great, thanks! Now I know that you are {agency-rep-name} from {agency-name} (business number: {agency-biz-number}), and that you're located at {agency-street-addr}, {agency-street-addr-city}, {agency-street-addr-province} {child-postal-code}. <br><br>Now we need some more information about the child. Can you please tell me the SIN number of {child-firstlast}?" />
+				</fieldset>
+
+				<fieldset>
+					<label for="agency-public">Is your Agency the Primary Public Caregiver for the child?</label>
+					<div class="radio">
+						<input required type="radio" name="agency-public" cf-conditional-choose-role="agency" cf-questions="And, finally, can you please tell me if {agency-name} is the Primary Public Caregiver for the child?" />
+						Yes
+					</div>
+					<div class="radio">
+						<input required type="radio" name="agency-public" cf-conditional-choose-role="agency" />
+						No
+					</div>
+				</fieldset>
+
+
+
+				<fieldset style="display: none;">
+					<label for="thats-all">Are you ready to submit the form?</label>
+					<select cf-questions="Are you ready to submit the form?" name="submit-form" id="submit-form" class="form-control">
+						<option></option>
+						<option>Yes</option>
+					</select>
+				</fieldset>
+
+				<fieldset style="display: none;">
+					<label for="thats-all">Want to start over?</label>
+					<select cf-questions="Want to start over?" name="repeat" id="repeat" class="form-control">
+						<option></option>
+						<option>Yes, let's go again.</option>
+					</select>
+				</fieldset>
+
+				<button type="submit" class="btn btn-default">Submit</button>
+			</form>
+		</section>
+
+		<section id="cf-context" role="cf-context" cf-context>
+
+		</section>
+	</main>
+
+	<script async defer src="https://buttons.github.io/buttons.js"></script>
+</body>
+
+</html>
